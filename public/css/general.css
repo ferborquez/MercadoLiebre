@@ -6,6 +6,9 @@
    
 
 }
+body{
+    background-color: var(--grisclaro);
+}
 a{
     color:black;
     text-decoration: none;

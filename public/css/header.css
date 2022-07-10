@@ -21,6 +21,9 @@ header p{
     margin: 20px 0;
     text-align: center;
 }
+header .links{
+    display: none
+}
 header .links ul{
 margin: 0 0 20px;
 
@@ -41,3 +44,16 @@ header .burger i{
     border-radius: 6px;
     font-size: var(--titulares);
 }
+/* tablet */
+@media (min-width:461px){
+    header .links{
+       display: block; 
+    }
+    header .burger{
+       display: none;
+   }
+}
+   /* desktop */
+   @media (min-width:769px){
+   
+   }

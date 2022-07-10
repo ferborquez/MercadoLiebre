@@ -1,0 +1,43 @@
+
+header{
+
+background-color: var(--amarillo) ;
+padding: 10% 0;
+font-size: var(--cuerpo-de-texto); 
+}
+header .logo,header .searchBar{
+    margin: 0 10px;
+}
+header .logo img{
+    width: 50%;
+}
+header .searchBar i{
+padding: 2px;
+background-color: white;
+border: 1px solid var(--grisoscuro);
+border-radius: 4px;
+}
+header p{
+    margin: 20px 0;
+    text-align: center;
+}
+header .links ul{
+margin: 0 0 20px;
+
+}
+header .links ul i{
+margin: 0 3px;
+
+}
+header .burger{
+    text-align: center;
+    font-size: 20px;
+   
+}
+header .burger i{
+    color: white;
+    background-color: var(--celeste);
+    padding: 10px;
+    border-radius: 6px;
+    font-size: var(--titulares);
+}
